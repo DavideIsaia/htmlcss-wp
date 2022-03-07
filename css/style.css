@@ -95,12 +95,13 @@ nav a {
 .content {
     background-color: #abcfe7;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
 .title {
-    height: 80px;
     width: 100%;
+    font-size: 1.4em;
+    margin-bottom: 1em;
 }
 
 .column {

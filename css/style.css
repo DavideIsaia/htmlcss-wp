@@ -107,12 +107,10 @@ nav a {
 }
 
 .column {
-    height: 400px;
     width: 20%;
 }
 
 .center {
-    height: 400px;
     width:calc(60% - 3em);
     margin: 0 1.5em;
 }

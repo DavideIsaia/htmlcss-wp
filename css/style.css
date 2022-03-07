@@ -33,7 +33,7 @@ li {
 }
 
 /* header */
-.header-container {
+header {
     margin-bottom: 2.5em;
 }
 
@@ -54,7 +54,7 @@ nav a {
 }
 
 /* banner */
-.banner {
+section {
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -65,7 +65,7 @@ nav a {
     overflow: hidden;
 }
 
-.b-overlay::before {
+.banner-overlay::before {
     content: "";
     position: absolute;
     top: 0;
@@ -75,7 +75,7 @@ nav a {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.banner-text {
+section .text {
     position: absolute;
     left: 2.5em;
     bottom: 3em;
@@ -103,6 +103,7 @@ nav a {
     float: left;
     font-size: 1.2em;
     margin-bottom: 1.5em;
+    width: 100%;
 }
 
 .column {
@@ -114,10 +115,10 @@ nav a {
     margin: 0 1.5em;
 }
 
-.pictures {
-    height: 12em;
-    border-radius: 1em;
+.picture {
+    height: 10em;
     width: 100%;
+    border-radius: 1em;
     object-fit: cover;
 }
 
@@ -132,12 +133,12 @@ nav a {
 }
 
 /* footer */
-.footer-container {
+footer {
     height: 50px;
     text-align: center;
 }
 
-.footer-container span {
+footer span {
     color: red;
     font-size: 2em;
 }

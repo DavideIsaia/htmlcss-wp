@@ -16,24 +16,41 @@
 .body-container {
     width: 80%;
     max-width: 900px;
-    margin: 20px auto;
+    margin: 2px auto;
 }
 
 html {
     font-family: 'Poppins', sans-serif;
-    font-size: 62,5%;
+    font-size: 62.5%;
+}
+
+/* general rules for future list */
+li {
+    color: gray;
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.5em;
 }
 
 /* header */
 .header-container {
-    height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 2.5em;
 }
 
 header img {
-    height: 100px;
+    height: 5.5em;
+    width: auto;
     border-right: 1px solid lightgray;
     padding-right: 1em;
+    margin-bottom: 2em;
+}
+
+/* rules for header menu list */
+nav a {
+    font-size: 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
 }
 
 /* center */
@@ -44,7 +61,7 @@ header img {
     height: 380px;
     margin-bottom: 20px;
     position: relative;
-    border-radius: 2em;
+    border-radius: 1em;
     overflow: hidden;
 }
 

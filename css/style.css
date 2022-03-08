@@ -24,6 +24,17 @@ html {
     font-size: 62.5%;
 }
 
+.overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, .2);
+}
+
 /* general rules for future list */
 li {
     color: gray;
@@ -63,16 +74,6 @@ section {
     position: relative;
     border-radius: 1em;
     overflow: hidden;
-}
-
-.banner-overlay::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .2);
 }
 
 section .text {
@@ -120,16 +121,6 @@ section .text {
     width: 100%;
     border-radius: 1em;
     object-fit: cover;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* footer */
